@@ -1,8 +1,7 @@
 
 function reloj() {
-var fecha=new Date('January 13, 2020 04:00:00');
     var hoy=new Date(); var h=hoy.getHours(); var m=hoy.getMinutes(); var s=hoy.getSeconds();
-var z= hoy.getDate() ; var day= fecha.getDay()-z; var a =fecha.getHours()-h; var b = fecha.getMinutes()-m; var c =fecha.getSeconds()-s;
+var z= hoy.getDate() ; var day= 19-z; var a =23-h; var b = 59-m; var c =59-s;
 
     b = actualizarHora(b);    c = actualizarHora(c);
 
